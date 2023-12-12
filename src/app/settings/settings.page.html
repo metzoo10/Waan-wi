@@ -14,16 +14,61 @@
       </ion-buttons>
       <ion-title class="title" size="large">Réglages</ion-title>
     </ion-toolbar>
-  </ion-header>
+  </ion-header> <br> <br>
 
   <ion-list [inset]="true">
     <ion-item>
       <ion-icon slot="start" name="moon"></ion-icon>
-      <ion-label>
-        Mode Sombre
-      </ion-label>
-      <ion-toggle slot="end"></ion-toggle>
-    </ion-item>
-  </ion-list>
+      <ion-toggle>
+        <ion-label>Mode Sombre</ion-label>
+      </ion-toggle>
+    </ion-item> <br>
+    <ion-item>
+      <ion-icon slot="start" name="notifications-circle-sharp"></ion-icon>
+      <ion-toggle>
+        <ion-label>Autoriser les notifications</ion-label>
+      </ion-toggle>
+    </ion-item> <br>
+    <ion-item>
+      <ion-icon slot="start" name="trash-sharp"></ion-icon>
+      <ion-toggle>
+        <ion-label class="ion-text-wrap">Suppression automatique du cache</ion-label>
+      </ion-toggle>
+    </ion-item> <br>
+    <ion-item>
+      <ion-icon slot="start" name="help-circle-sharp"></ion-icon>
+      <ion-label>FAQ</ion-label>
+    </ion-item> <br>
+      <ion-accordion-group>
+        <ion-accordion value="first">
+          <ion-item slot="header" color="light">
+            <ion-label class="ion-text-wrap">Comment naviguer entre les différentes catégories de recettes ?</ion-label>
+          </ion-item>
+          <div class="ion-padding" slot="content">Pour naviguer entre les catégories de recettes, utilisez simplement la barre de navigation située en haut de l'écran. Vous pouvez sélectionner "Plats", "Desserts" ou "En-cas" pour voir les recettes correspondantes.</div>
+        </ion-accordion>
+        <ion-accordion value="second">
+          <ion-item slot="header" color="light">
+            <ion-label class="ion-text-wrap">Comment interpréter les mesures des ingrédients dans les recettes ?</ion-label>
+          </ion-item>
+          <div class="ion-padding" slot="content">Les mesures des ingrédients peuvent varier selon les recettes. Assurez-vous de consulter les unités de mesure spécifiées (tasses, cuillères, grammes) et utilisez des outils de mesure adaptés pour des résultats précis.</div>
+        </ion-accordion>
+        <ion-accordion value="third">
+          <ion-item slot="header" color="light">
+            <ion-label class="ion-text-wrap">Comment choisir des alternatives d'ingrédients si je n'ai pas tout ce qui est listé ?</ion-label>
+          </ion-item>
+          <div class="ion-padding" slot="content">Si vous manquez d'un ingrédient spécifique, consultez nos suggestions d'alternatives courantes dans la section "Conseils de substitution" de la recette. Vous pouvez également choisir des ingrédients similaires en termes de texture ou de saveur.</div>
+        </ion-accordion>
+        <ion-accordion value="fourth">
+          <ion-item slot="header" color="light">
+            <ion-label class="ion-text-wrap">Que faire si une recette ne donne pas les résultats attendus ?</ion-label>
+          </ion-item>
+          <div class="ion-padding" slot="content">Si une recette ne répond pas à vos attentes, assurez-vous de suivre attentivement chaque étape. Parfois, de petites modifications dans la préparation ou les temps de cuisson peuvent être nécessaires en fonction de votre équipement ou de vos préférences.</div>
+        </ion-accordion>
+      </ion-accordion-group>
+  </ion-list> <br>
+
+  <ion-note color="medium" class="ion-margin-horizontal">
+    Your comments will be kept anonymous and will only be used to improve the reliability of our products.
+  </ion-note>
 
 </ion-content>
