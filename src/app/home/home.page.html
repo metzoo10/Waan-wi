@@ -1,0 +1,62 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      <img src="assets/images/logo.png" alt="icône d'une toque">
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title>
+        <img src="assets/images/logo.png" alt="icône d'une toque">
+      </ion-title>
+    </ion-toolbar><br>
+    <ion-toolbar>
+      <ion-searchbar animated="true" placeholder="Recherchez !"></ion-searchbar>
+    </ion-toolbar>
+  </ion-header><br>
+
+  <ion-card>
+    <ion-img
+    class="img-style" src="assets/images/header-img.jpg" alt="photo d'une assiette sur fond orange avec un message"></ion-img>
+  </ion-card>
+  
+  <ion-card (click)="redirigerVersPage('recettes-plats')">
+    <img alt="Silhouette of mountains" src="https://ionicframework.com/docs/img/demos/card-media.png" />
+    <ion-card-header>
+      <ion-card-title>Plats</ion-card-title>
+      <ion-card-subtitle></ion-card-subtitle>
+    </ion-card-header>
+  
+    <ion-card-content>
+      Retrouvez les recettes des plats incontournables de la gastronomie sénégalaise. 
+    </ion-card-content>
+  </ion-card>
+  
+  <ion-card (click)="redirigerVersPage('recettes-desserts')">
+    <img alt="Silhouette of mountains" src="https://ionicframework.com/docs/img/demos/card-media.png" />
+    <ion-card-header>
+      <ion-card-title>Desserts</ion-card-title>
+      <ion-card-subtitle></ion-card-subtitle>
+    </ion-card-header>
+  
+    <ion-card-content>
+      Envie de se désaltérer, plongez dans les recettes des desserts et boissons qui vous feront monter l'eau à la bouche. 
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card (click)="redirigerVersPage('recettes-njogonal')">
+    <img alt="Silhouette of mountains" src="https://ionicframework.com/docs/img/demos/card-media.png" />
+    <ion-card-header>
+      <ion-card-title>Njoganal</ion-card-title>
+      <ion-card-subtitle></ion-card-subtitle>
+    </ion-card-header>
+  
+    <ion-card-content>
+      Où encore appellé en-cas, les recettes des meilleures amuse-bouches de chez nous. 
+    </ion-card-content>
+  </ion-card>
+
+</ion-content>

@@ -1,0 +1,65 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      waañ wi
+      <img src="assets/images/cook-2.svg" alt="icône d'une toque">    
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-buttons slot="start">
+        <ion-back-button text="Previous" icon="caret-back"></ion-back-button>
+      </ion-buttons>
+      <ion-title class="title" size="large">Plats</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-card>
+    <img alt="Silhouette of mountains" src="https://ionicframework.com/docs/img/demos/card-media.png" />
+    <ion-card-header>
+      <ion-card-title></ion-card-title>
+      <ion-card-subtitle class="subtitle">Découvrez les recettes des plats piliers de la gastronomie sénégalaise. Du Nord au Sud, en passant par l'intérieur du pays jusqu'aux côtes dakaroises, la cuisine sénégalaise est d'une richesse sans nom ! <br> Alors ne perdons pas de temps et allons-y !</ion-card-subtitle>
+    </ion-card-header>
+    <ion-card-content></ion-card-content>
+  </ion-card>
+
+  <ion-card (click)="redirigerVersPage('thieboudiene')">
+    <img alt="Silhouette of mountains" src="https://ionicframework.com/docs/img/demos/card-media.png" />
+    <ion-card-header>
+      <ion-card-title>Thiebou Diène (riz blanc au poisson)</ion-card-title>
+      <ion-card-subtitle></ion-card-subtitle>
+    </ion-card-header>
+  
+    <ion-card-content>
+      Retrouvez les recettes des plats incontournables de la gastronomie sénégalaise. 
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card (click)="redirigerVersPage('yassa')">
+    <img alt="Silhouette of mountains" src="https://ionicframework.com/docs/img/demos/card-media.png" />
+    <ion-card-header>
+      <ion-card-title>Yassa Poulet</ion-card-title>
+      <ion-card-subtitle></ion-card-subtitle>
+    </ion-card-header>
+  
+    <ion-card-content>
+      Retrouvez les recettes des plats incontournables de la gastronomie sénégalaise. 
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card (click)="redirigerVersPage('kandia')">
+    <img alt="Silhouette of mountains" src="https://ionicframework.com/docs/img/demos/card-media.png" />
+    <ion-card-header>
+      <ion-card-title>Soupou Kandia</ion-card-title>
+      <ion-card-subtitle></ion-card-subtitle>
+    </ion-card-header>
+  
+    <ion-card-content>
+      Retrouvez les recettes des plats incontournables de la gastronomie sénégalaise. 
+    </ion-card-content>
+  </ion-card>
+
+</ion-content>

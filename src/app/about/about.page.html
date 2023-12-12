@@ -1,0 +1,59 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      <img src="assets/images/logo.png" alt="icône d'une toque">
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-buttons slot="start">
+        <ion-back-button text="Previous" icon="caret-back"></ion-back-button>
+      </ion-buttons>
+      <ion-title class="title" size="large">À Propos</ion-title>
+    </ion-toolbar>
+  </ion-header> <br> <br>
+
+  <ion-list [inset]="true">
+    <ion-item>
+      <ion-avatar>
+        <img src="assets/images/mouha.jpg" alt="Photo de profil">
+      </ion-avatar>
+      <ion-label slot="end">Mouhamed BA</ion-label>
+    </ion-item> <br>
+
+    <ion-item>
+      <ion-label class="ion-text-wrap">
+        <p>Je suis étudiant à l'Université Numérique Cheikh Hamidou Kane (ex-UVS) en 3° année d'informatique, développement web, mobile et gaming. Je suis un passionné de la programmation et aussi de sport et lecture, entre autres.</p>
+      </ion-label>
+    </ion-item>
+
+    <ion-item>
+      <ion-label class="ion-text-wrap">
+        <h1>À Propos</h1> <br>
+        <p>Waañ wi est une application mobile qui vise à simplifier la recherche et la préparation de recettes pour les amateurs de cuisine sénégalaise. Elle offre une variété de recettes provenant de la cuisine de chez nous, avec des fonctionnalités pour faciliter la planification des repas et la gestion des ingrédients.</p>
+      </ion-label>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>
+        <h1>Contacts</h1> <br>
+          <ion-item>
+            <ion-icon name="mail-sharp"></ion-icon>
+            <ion-label slot="end">E-mail</ion-label>
+          </ion-item>
+          <ion-item>
+            <ion-icon name="call-sharp"></ion-icon>
+            <ion-label slot="end">Téléphone</ion-label>
+          </ion-item>
+          <ion-item>
+            <ion-icon name="logo-github"></ion-icon>
+            <ion-label slot="end">Github</ion-label>
+          </ion-item>
+      </ion-label>
+    </ion-item>
+  </ion-list>
+
+</ion-content>

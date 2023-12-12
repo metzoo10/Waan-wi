@@ -1,0 +1,58 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      waañ wi
+      <img src="assets/images/cook-2.svg" alt="icône d'une toque">
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-buttons slot="start">
+        <ion-back-button text="Previous" icon="caret-back"></ion-back-button>
+      </ion-buttons>
+      <ion-title class="title" size="large">Accras au niébé</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-card>
+    <ion-img
+    class="img-style" src="assets/images/header-img.jpg" alt="photo d'une assiette sur fond orange avec un message"></ion-img>
+  </ion-card>
+
+
+  <ion-accordion-group>
+    <ion-accordion value="first">
+
+      <ion-item slot="header" color="light">
+        <ion-label>Ingrédients</ion-label>
+      </ion-item>
+      <div class="ion-padding" slot="content">2 tasses de haricots niébé trempés toute une nuit</div>
+      <div class="ion-padding" slot="content">1 oignon</div>
+      <div class="ion-padding" slot="content">2 gousses d'ail</div>
+      <div class="ion-padding" slot="content">1 piment (selon le goût)</div>
+      <div class="ion-padding" slot="content">1 cuillère à café de levure chimique</div>
+      <div class="ion-padding" slot="content">1 bouquet de persil frais</div>
+      <div class="ion-padding" slot="content">Poivre</div>
+      <div class="ion-padding" slot="content">Sel</div>
+      <div class="ion-padding" slot="content">Huile végétale pour la friture</div>
+    </ion-accordion> <br>
+
+    <ion-accordion value="second">
+      <ion-item slot="header" color="light">
+        <ion-label>Instructions</ion-label>
+      </ion-item>
+      <div class="ion-padding" slot="content">1. Rincer les haricots niébé trempés et les égoutter.</div>
+      <div class="ion-padding" slot="content">2. Dans un mixeur, moudre les haricots avec l'oignon, l'ail, le piment et le persil jusqu'à obtenir une pâte épaisse et homogène.</div>
+      <div class="ion-padding" slot="content">3. Transférer la pâte dans un bol et ajouter la levure chimique, du sel et du poivre selon ton goût. Bien mélanger.</div>
+      <div class="ion-padding" slot="content">4. Fais chauffer de l'huile dans une casserole ou une friteuse à feu moyen.</div>
+      <div class="ion-padding" slot="content">5. À l'aide d'une cuillère à soupe, prépare des petites portions de pâte et plonge-les dans l'huile chaude pour les frire.</div>
+      <div class="ion-padding" slot="content">6. Fais frire les accras jusqu'à ce qu'ils soient dorés et bien cuits à l'intérieur.</div>
+      <div class="ion-padding" slot="content">7. Retire-les de l'huile et place-les sur du papier absorbant pour éliminer l'excès d'huile.</div>
+    </ion-accordion>
+  </ion-accordion-group>
+
+
+</ion-content>
