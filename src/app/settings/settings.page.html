@@ -10,18 +10,19 @@
   <ion-header collapse="condense">
     <ion-toolbar>
       <ion-buttons slot="start">
-        <ion-back-button text="Previous" icon="caret-back"></ion-back-button>
+        <ion-back-button defaultHref="/" text="Retour" icon="caret-back" color="medium"></ion-back-button>
       </ion-buttons>
-      <ion-title class="title" size="large">Réglages</ion-title>
+      <ion-title class="title">Réglages</ion-title>
     </ion-toolbar>
   </ion-header> <br> <br>
 
   <ion-list [inset]="true">
     <ion-item>
-      <ion-icon slot="start" name="moon"></ion-icon>
-      <ion-toggle>
-        <ion-label>Mode Sombre</ion-label>
-      </ion-toggle>
+        <ion-icon slot="start" name="contrast-sharp"></ion-icon>
+        <ion-label class="ion-text-wrap">
+          <h2>Apparence</h2>
+          <p>En fonction du mode d'apparence de l'appareil</p>
+        </ion-label>
     </ion-item> <br>
     <ion-item>
       <ion-icon slot="start" name="notifications-circle-sharp"></ion-icon>
@@ -67,8 +68,5 @@
       </ion-accordion-group>
   </ion-list> <br>
 
-  <ion-note color="medium" class="ion-margin-horizontal">
-    Your comments will be kept anonymous and will only be used to improve the reliability of our products.
-  </ion-note>
 
 </ion-content>
