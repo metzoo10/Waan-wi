@@ -4,3 +4,7 @@
 .subtitle {
     text-transform: none;
 }
+ion-tab-button {
+    --color-selected: var(--ion-color-warning-tint);
+    --color-selected-icon: var(--ion-color-warning-tint);
+}
