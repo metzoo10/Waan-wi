@@ -21,46 +21,20 @@
     class="img-style" src="assets/images/header-img.jpg" alt="photo d'une assiette sur fond orange avec un message"></ion-img>
   </ion-card>
 
-
-  <ion-accordion-group>
-    <ion-accordion value="first">
-
-      <ion-item slot="header" color="light">
-        <ion-label>Ingrédients</ion-label>
-      </ion-item>
-      <div class="ion-padding" slot="content">1 poulet coupé en morceaux</div>
-      <div class="ion-padding" slot="content">4 oignons</div>
-      <div class="ion-padding" slot="content">3 citrons (jus)</div>
-      <div class="ion-padding" slot="content">4 gousses d'ail</div>
-      <div class="ion-padding" slot="content">3 cuillères à soupe d'huile végétale</div>
-      <div class="ion-padding" slot="content">2 cuillères à soupe de moutarde</div>
-      <div class="ion-padding" slot="content">2 cuillères à soupe de vinaigre blanc</div>
-      <div class="ion-padding" slot="content">2 bouillons cube</div>
-      <div class="ion-padding" slot="content">Poivre noir</div>
-      <div class="ion-padding" slot="content">2 piments (selon le goût)</div>
-      <div class="ion-padding" slot="content">2 feuilles de laurier (optionnel)</div>
-      <div class="ion-padding" slot="content">Sel</div>
-      <div class="ion-padding" slot="content">2 tasses de riz</div>
-      <div class="ion-padding" slot="content">Eau</div>
-    </ion-accordion> <br>
-
-    <ion-accordion value="second">
-      <ion-item slot="header" color="light">
-        <ion-label>Instructions</ion-label>
-      </ion-item>
-      <div class="ion-padding" slot="content">1. Dans un bol, mélanger le jus des citrons, la moutarde, le vinaigre, du sel et du poivre. C'est la marinade pour le poulet.</div>
-      <div class="ion-padding" slot="content">2. Mariner les morceaux de poulet avec ce mélange et laisser reposer pendant au moins 1 heure au réfrigérateur.</div>
-      <div class="ion-padding" slot="content">3. Émincer finement les oignons et les faire revenir dans une grande poêle avec de l'huile jusqu'à ce qu'ils deviennent dorés et caramélisés.</div>
-      <div class="ion-padding" slot="content">4. Ajouter l'ail écrasé, les bouillons cube de volaille émiettés, les piments coupés en petits morceaux et éventuellement les feuilles de laurier dans la poêle. Laisser cuire quelques minutes.</div>
-      <div class="ion-padding" slot="content">5. Retirer les morceaux de poulet de la marinade et les faire dorer dans la poêle avec les oignons et les épices jusqu'à ce qu'ils soient bien dorés.</div>
-      <div class="ion-padding" slot="content">6. Verser la marinade sur le poulet et les oignons. Ajouter un peu d'eau si nécessaire pour créer une sauce et laisser mijoter à feu doux jusqu'à ce que le poulet soit cuit et que la sauce ait réduit.</div>
-      <div class="ion-padding" slot="content">7. Rincer abondamment le riz à l'eau froide jusqu'à ce que l'eau soit claire pour éliminer l'excès d'amidon.</div>
-      <div class="ion-padding" slot="content">8. Dans une casserole, verser le riz et ajouter de l'eau en utilisant un ratio de 1:2 (pour chaque tasse de riz, utiliser deux tasses d'eau). Ajouter une pincée de sel.</div>
-      <div class="ion-padding" slot="content">9. Porter à ébullition à feu moyen-élevé.</div>
-      <div class="ion-padding" slot="content">10. Réduire le feu à son minimum, couvrir la casserole avec un couvercle hermétique et laisser mijoter pendant environ 15-20 minutes, ou jusqu'à ce que tout le liquide soit absorbé.</div>
-      <div class="ion-padding" slot="content">11. Une fois cuit, retirer du feu et laisser reposer le riz pendant quelques minutes à couvert avant de le servir.</div>
-    </ion-accordion>
-  </ion-accordion-group>
-
+  <ion-list>
+    <ion-item>
+      <ion-label>{{ listrecettes[1].nom }}</ion-label>
+    </ion-item>
+    <ion-item>
+      <ul>
+        <li>{{ listrecettes[1].ingredients }}</li>
+      </ul>
+    </ion-item>
+    <ion-item>
+      <ol>
+        <li>{{ listrecettes[1].instructions }}</li>
+      </ol>
+    </ion-item>
+  </ion-list>    
 
 </ion-content>

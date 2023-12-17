@@ -21,35 +21,21 @@
     class="img-style" src="assets/images/header-img.jpg" alt="photo d'une assiette sur fond orange avec un message"></ion-img>
   </ion-card>
 
-
-  <ion-accordion-group>
-    <ion-accordion value="first">
-
-      <ion-item slot="header" color="light">
-        <ion-label>Ingrédients</ion-label>
-      </ion-item>
-      <div class="ion-padding" slot="content">1 tasse de mil</div>
-      <div class="ion-padding" slot="content">1 litre de lait</div>
-      <div class="ion-padding" slot="content">1 litre de yaourt nature</div>
-      <div class="ion-padding" slot="content">1 tasse de sucre (ajouter selon vos préferences)</div>
-      <div class="ion-padding" slot="content">1 cuillère à café d'extrait de vanille (ou de fleur d'oranger)</div>
-      <div class="ion-padding" slot="content">Arachides grillées (facultatif, pour garnir)</div>
-      <div class="ion-padding" slot="content">Noix de coco râpée (optionnel)</div>
-    </ion-accordion> <br>
-
-    <ion-accordion value="second">
-      <ion-item slot="header" color="light">
-        <ion-label>Instructions</ion-label>
-      </ion-item>
-      <div class="ion-padding" slot="content">1. Faire bouillir le lait dans une casserole. Ajouter le mil en pluie tout en remuant constamment pour éviter les grumeaux.</div>
-      <div class="ion-padding" slot="content">2. Réduire le feu et laisser mijoter doucement tout en remuant régulièrement jusqu'à ce que le mil soit cuit et que le mélange épaississe. Cela peut prendre environ 20 à 30 minutes.</div>
-      <div class="ion-padding" slot="content">3. Retirer du feu et laisser refroidir le mélange de lait et de mil.</div>
-      <div class="ion-padding" slot="content">4. Une fois refroidi, ajouter le yaourt, le sucre et l'extrait de vanille (ou de fleur d'oranger) au mélange de lait et de mil.</div>
-      <div class="ion-padding" slot="content">5. Bien mélanger jusqu'à obtenir une consistance homogène.</div>
-      <div class="ion-padding" slot="content">6. Mettre le thiakry au réfrigérateur pendant au moins quelques heures pour le refroidir avant de le servir.</div>
-      <div class="ion-padding" slot="content">7. Au moment de servir, tu peux garnir le thiakry avec des arachides grillées concassées ou de la noix de coco râpée pour ajouter une texture et des saveurs supplémentaires.</div>
-    </ion-accordion>
-  </ion-accordion-group>
+  <ion-list>
+    <ion-item>
+      <ion-label>{{ listrecettes[4].nom }}</ion-label>
+    </ion-item>
+    <ion-item>
+      <ul>
+        <li>{{ listrecettes[4].ingredients }}</li>
+      </ul>
+    </ion-item>
+    <ion-item>
+      <ol>
+        <li>{{ listrecettes[4].instructions }}</li>
+      </ol>
+    </ion-item>
+  </ion-list>
 
 
 </ion-content>
