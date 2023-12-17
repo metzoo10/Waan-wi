@@ -1,0 +1,36 @@
+{
+    "yassa": [
+        {
+            "nom": "Yassa poulet",
+            "ingredients": [
+              "1 poulet coupé en morceaux",
+              "4 oignons",
+              "3 citrons (jus)",
+              "4 gousses d'ail",
+              "3 cuillères à soupe d'huile végétale",
+              "2 cuillères à soupe de moutarde",
+              "2 cuillères à soupe de vinaigre",
+              "2 bouillons cube",
+              "Poivre noir",
+              "2 piments (selon le goût)",
+              "2 feuilles de laurier (selon le goût)",
+              "Sel",
+              "2 tasses de riz",
+              "Eau"
+            ],
+            "instructions": [
+              "Dans un bol, mélanger le jus des citrons, la moutarde, le vinaigre, du sel et du poivre. C'est la marinade pour le poulet.",
+              "Mariner les morceaux de poulet avec ce mélange et laisser reposer pendant au moins 1 heure au réfrigérateur.",
+              "Émincer finement les oignons et les faire revenir dans une grande poêle avec de l'huile jusqu'à ce qu'ils deviennent dorés et caramélisés.",
+              "Ajouter l'ail écrasé, les bouillons cube de volaille émiettés, les piments coupés en petits morceaux et éventuellement les feuilles de laurier dans la poêle. Laisser cuire quelques minutes.",
+              "Retirer les morceaux de poulet de la marinade et les faire dorer dans la poêle avec les oignons et les épices jusqu'à ce qu'ils soient bien dorés.",
+              "Verser la marinade sur le poulet et les oignons. Ajouter un peu d'eau si nécessaire pour créer une sauce et laisser mijoter à feu doux jusqu'à ce que le poulet soit cuit et que la sauce ait réduit.",
+              "Rincer abondamment le riz à l'eau froide jusqu'à ce que l'eau soit claire pour éliminer l'excès d'amidon.",
+              "Dans une casserole, verser le riz et ajouter de l'eau en utilisant un ratio de 1:2 (pour chaque tasse de riz, utiliser deux tasses d'eau). Ajouter une pincée de sel.",
+              "Porter à ébullition à feu moyen-élevé.",
+              "Réduire le feu à son minimum, couvrir la casserole avec un couvercle hermétique et laisser mijoter pendant environ 15-20 minutes, ou jusqu'à ce que tout le liquide soit absorbé.",
+              "Une fois cuit, retirer du feu et laisser reposer le riz pendant quelques minutes à couvert avant de le servir."
+            ]
+        }
+    ]
+}

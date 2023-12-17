@@ -1,0 +1,26 @@
+{
+    "beignets": [
+        {
+            "nom": "Beignets Dougoup",
+            "ingredients": [
+              "2 tasses de mil",
+              "1 tasse de farine de blé",
+              "1 cuillère à café de levure chimique",
+              "1 cuillère à soupe de sucre",
+              "Eau",
+              "1 pincée de sel",
+              "Huile végétale"
+            ],
+            "instructions": [
+              "Commence par moudre le mil pour obtenir une poudre fine.",
+              "Dans un grand bol, mélange la farine de mil, la farine de blé, le sucre, la levure chimique et une pincée de sel.",
+              "Ajoute de l'eau progressivement tout en mélangeant jusqu'à obtenir une pâte épaisse et lisse, semblable à celle d'une pâte à beignets.",
+              "Laisse reposer la pâte pendant environ 30 minutes pour qu'elle repose et se repose.",
+              "Chauffe de l'huile dans une casserole ou une friteuse à feu moyen.",
+              "À l'aide d'une cuillère, prends des portions de pâte et forme des petites boules que tu plongeras dans l'huile chaude pour les frire.",
+              "Fais frire les beignets jusqu'à ce qu'ils soient dorés et bien cuits à l'intérieur.",
+              "Retire-les de l'huile et place-les sur du papier absorbant pour éliminer l'excès d'huile."
+            ]
+        }
+    ]
+}

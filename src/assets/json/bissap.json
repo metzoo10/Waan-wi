@@ -1,0 +1,23 @@
+{
+    "bissap": [
+        {
+            "nom": "Jus Bissap",
+            "ingredients": [
+              "2 tasses de fleurs d'hibiscus séchés (bissap)",
+              "1.5 à 2 litres d'eau",
+              "Sucre",
+              "1 ou 2 bâtons de cannelle (optionnel)",
+              "1 morceau de gingembre (optionnel)",
+              "Jus de citron (optionnel)"
+            ],
+            "instructions": [
+              "Rincer les fleurs d'hibiscus à l'eau pour enlever toute impureté.",
+              "Dans une casserole, porter à ébullition l'eau avec les fleurs d'hibiscus, le gingembre et les bâtons de cannelle (si utilisés).",
+              "Laisser mijoter pendant environ 15 à 20 minutes. Tu verras que l'eau prendra une couleur rouge profonde.",
+              "Retirer du feu et laisser refroidir. Ensuite, filtrer le liquide pour enlever les fleurs d'hibiscus, le gingembre et la cannelle (si utilisés).",
+              "Ajouter du sucre ou tout autre édulcorant selon ton goût. Tu peux aussi ajouter un peu de jus de citron pour un goût acidulé si tu le souhaites.",
+              "Réfrigérer le jus de bissap pendant quelques heures avant de le servir."
+            ]
+        }
+    ]
+}

@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { IRecette } from 'src/models/recette.model';
+import { DataService } from '../data.service';
 
 @Component({
   selector: 'app-accara',
@@ -7,9 +9,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AccaraPage implements OnInit {
 
-  constructor() { }
+  listrecettes: IRecette[] = [];
 
-  ngOnInit() {
+  constructor(private dataService: DataService) { }
+
+  ngOnInit(): void {
+    this.dataService.getRecettes().subscribe((data: IRecette[]) => {
+      this.listrecettes = data;
+    })
   }
 
 }
