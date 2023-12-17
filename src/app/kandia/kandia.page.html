@@ -23,17 +23,17 @@
 
   <ion-list>
     <ion-item>
-      <ion-label>{{ listrecettes[2].nom }}</ion-label>
-    </ion-item>
-    <ion-item>
-      <ul>
-        <li>{{ listrecettes[2].ingredients }}</li>
-      </ul>
-    </ion-item>
-    <ion-item>
-      <ol>
-        <li>{{ listrecettes[2].instructions }}</li>
-      </ol>
+      <ion-card>
+        <ion-card-header>
+          <ion-card-title>{{ listrecettes[2].nom }}</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+          <h3>Ingrédients :</h3>
+          <p>{{ listrecettes[2].ingredients }}</p> <br>
+          <h3>Instructions :</h3>
+          <p>{{ listrecettes[2].instructions }}</p>
+        </ion-card-content>
+      </ion-card>
     </ion-item>
   </ion-list>
 
