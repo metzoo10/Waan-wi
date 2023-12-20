@@ -1,27 +1,85 @@
- # Ionic Recipe App - Waan wi 🥞
+ # Ionic Recipe App - Waañ wi 🥞
  
-A recipe application for Senegalese dishes, desserts and snacks
+A recipe application for Senegalese dishes, desserts and snacks.
 
-![app-banner](https://github.com/metzoo10/myApp/assets/129201720/e051e59b-06fb-4732-bacb-d090f322f4f1)
+![app-banner (1)](https://github.com/metzoo10/myApp/assets/129201720/c997e17e-df24-4017-ab06-03b6ea9c781e)
+
 
 
 ## About 🎯
 
-a recipe application for Senegalese dishes, desserts and snacks
+*"Waan wi"* is a mobile application that allows you to discover and prepare a variety of tasty dishes, desserts and snacks.
+
+Explore **a diverse collection of Senegalese recipes and get inspired to cook delicious dishes at home!** 🥗
 
 
-## Table des matières 📝
-- [Installation](#installation)
-- [Utilisation](#utilisation)
-- [Contribuer](#contribuer)
+## Features 📝
+
+The recipes are divided into three categories: *dishes*, *desserts* and *snacks*. Each category contains delicious food recipes 🤤
+
+The application retrieves the data for the different recipes from a **JSON file** which is then linked to an Ionic service.
+
+Thus, with a single service, we can communicate the data required for each recipe 🥘
+
+An **About** page where we can find a description of the app and the author (and contacts too 👀) and a **Settings** page for configuration and FAQ 🤓
 
 ## Installation ⬇️
 
-Décris les étapes nécessaires pour installer ton projet.
+To run this application, follow these steps :
 
-## Utilisation 💡
+### Prerequisites
 
-Explique comment utiliser ton projet une fois qu'il est installé.
+Make sure you have **Node.js** and **Ionic** installed on your machine before you begin.
+
+1. Node.js :
+
+ - If Node.js is not installed, *download and install the latest version from [the official Node.js website.](https://nodejs.org/)*
+
+2. Ionic CLI :
+
+ - Install **Ionic CLI** using the following command :
+
+```bash
+npm install -g @ionic/cli
+```
+
+
+### Project Cloning
+
+ - Clone the repository from GitHub to your local machine :
+
+```bash
+git clone [https://github.com/metzoo10/myApp](https://github.com/metzoo10/myApp.git)
+cd nom-du-dossier
+```
+
+
+### Dependencies Installation
+
+1. Installation of Project Dependencies :
+
+```bash
+npm install
+```
+
+
+2. Launching the JSON Server :
+
+ - In a separate terminal, *start JSON Server to simulate a REST API from your JSON file containing recipe data* :
+
+```bash
+json-server src/assets/recettes.json
+```
+
+
+### Starting the Application
+
+ - Launch the **Ionic app** locally using the following command :
+
+```bash
+ionic serve
+```
+
 
 ## Technologies 🚀
 
