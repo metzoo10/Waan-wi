@@ -13,6 +13,12 @@ A recipe application for Senegalese dishes, desserts and snacks.
 Explore **a diverse collection of Senegalese recipes and get inspired to cook delicious dishes at home!** 🥗
 
 
+## Demo 📹
+
+
+https://github.com/metzoo10/myApp/assets/129201720/c5d7240a-21cb-40fd-8e7c-8afd101ece4d
+
+
 ## Features 📝
 
 The recipes are divided into three categories: *dishes*, *desserts* and *snacks*. Each category contains delicious food recipes 🤤
