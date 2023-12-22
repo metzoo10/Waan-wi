@@ -55,7 +55,8 @@ npm install -g @ionic/cli
  - Clone the repository from GitHub to your local machine :
 
 ```bash
-git clone [https://github.com/metzoo10/myApp](https://github.com/metzoo10/myApp.git)
+git clone https://github.com/metzoo10/myApp.git
+
 cd nom-du-dossier
 ```
 
@@ -69,9 +70,15 @@ npm install
 ```
 
 
-2. Launching the JSON Server :
+2. Installation and Launching of the JSON Server :
 
- - In a separate terminal, *start JSON Server to simulate a REST API from your JSON file containing recipe data* :
+ - To install JSON Server in your application, navigate to your project directory in your terminal or command prompt and type in this command :
+
+```bash
+npm install -g json-server
+```
+   
+ - To launch it, go in a separate terminal and *start JSON Server to simulate a REST API from your JSON file containing recipe data*  with this command :
 
 ```bash
 json-server src/assets/recettes.json
@@ -85,6 +92,10 @@ json-server src/assets/recettes.json
 ```bash
 ionic serve
 ```
+
+
+
+And there you go ! You've installed successfully the app.
 
 
 ## Technologies 🚀
