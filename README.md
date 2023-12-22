@@ -33,7 +33,7 @@ An **About** page where we can find a description of the app and the author (and
 
 To run this application, follow these steps :
 
-### Prerequisites
+### Prerequisites 📏
 
 Make sure you have **Node.js** and **Ionic** installed on your machine before you begin.
 
@@ -50,7 +50,7 @@ npm install -g @ionic/cli
 ```
 
 
-### Project Cloning
+### Project Cloning 🧬
 
  - Clone the repository from GitHub to your local machine :
 
@@ -61,7 +61,7 @@ cd nom-du-dossier
 ```
 
 
-### Dependencies Installation
+### Dependencies Installation 🔽
 
 1. Installation of Project Dependencies :
 
@@ -85,7 +85,7 @@ json-server src/assets/recettes.json
 ```
 
 
-### Starting the Application
+### Starting the Application ▶️
 
  - Launch the **Ionic app** locally using the following command :
 
