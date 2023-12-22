@@ -55,7 +55,7 @@ npm install -g @ionic/cli
  - Clone the repository from GitHub to your local machine :
 
 ```bash
-git clone https://github.com/metzoo10/myApp.git
+git clone https://github.com/metzoo10/Waan-wi.git
 
 cd nom-du-dossier
 ```
