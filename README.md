@@ -93,7 +93,8 @@ json-server src/assets/recettes.json
 ionic serve
 ```
 
-Don't forget to view the app with an emulated device by clicking **F12**.
+### Tip 💡
+Don't forget to view the app with an emulated device by clicking **F12**. And also to refresh your browser so the app will appear normally.
 
 And there you go ! You've installed successfully the app.
 
