@@ -19,20 +19,22 @@
   <ion-list [inset]="true">
     <ion-item>
         <ion-icon slot="start" name="contrast-sharp"></ion-icon>
-        <ion-label class="ion-text-wrap">
-          <h2>Apparence</h2>
-          <p>En fonction du mode d'apparence de l'appareil</p>
-        </ion-label>
+        <ion-toggle color="warning" [checked]="darkMode" (ionChange)="toggleDarkMode()">
+          <ion-label class="ion-text-wrap">
+            <h2>Apparence</h2>
+            <p>En fonction du mode d'apparence de l'appareil</p>
+          </ion-label>
+        </ion-toggle>
     </ion-item> <br>
     <ion-item>
       <ion-icon slot="start" name="notifications-circle-sharp"></ion-icon>
-      <ion-toggle>
+      <ion-toggle color="warning">
         <ion-label>Autoriser les notifications</ion-label>
       </ion-toggle>
     </ion-item> <br>
     <ion-item>
       <ion-icon slot="start" name="trash-sharp"></ion-icon>
-      <ion-toggle>
+      <ion-toggle color="warning">
         <ion-label class="ion-text-wrap">Suppression automatique du cache</ion-label>
       </ion-toggle>
     </ion-item> <br>

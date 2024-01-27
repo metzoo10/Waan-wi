@@ -12,12 +12,27 @@
       <ion-title>
         <img src="assets/images/logo.png" alt="logo de waan wi">
       </ion-title>
+    </ion-toolbar> <br>
+    <ion-toolbar>
+      <ion-searchbar search-icon="search-circle" animated="true" placeholder="Recherchez !"></ion-searchbar>
     </ion-toolbar>
   </ion-header><br>
 
+
   <ion-card>
-    <ion-img
-     src="assets/images/header.png" alt="photo d'une assiette sur fond orange avec un message"></ion-img>
+    <ion-card-content>
+      <swiper-container [pagination]="true" autoplay="true">
+        <swiper-slide>
+          <img src="assets/images/1.png" alt="photo d'une assiette sur fond orange avec un message">
+        </swiper-slide>
+        <swiper-slide>
+          <img src="assets/images/2.png" alt="photo d'une assiette sur fond orange avec un message">
+        </swiper-slide>
+        <swiper-slide>
+          <img src="assets/images/3.png" alt="photo d'une assiette sur fond orange avec un message">
+        </swiper-slide>
+      </swiper-container>
+    </ion-card-content>
   </ion-card>
   
   <ion-card (click)="redirigerVersPage('recettes-plats')">
