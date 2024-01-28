@@ -2,7 +2,7 @@
  
 A recipe application for Senegalese dishes, desserts and snacks.
 
-![app-banner (1)](https://github.com/metzoo10/myApp/assets/129201720/c997e17e-df24-4017-ab06-03b6ea9c781e)
+![app-banner (1)](https://github.com/metzoo10/Waan-wi/assets/129201720/816a3568-157f-4df5-a157-1261e99045ea)
 
 
 
@@ -16,7 +16,9 @@ Explore **a diverse collection of Senegalese recipes and get inspired to cook de
 ## Demo 📹
 
 
-https://github.com/metzoo10/myApp/assets/129201720/c5d7240a-21cb-40fd-8e7c-8afd101ece4d
+
+https://github.com/metzoo10/Waan-wi/assets/129201720/7458c4da-bf4c-4c92-ba15-2d79be88426e
+
 
 
 ## Features 📝
@@ -78,7 +80,7 @@ npm install
 npm install -g json-server
 ```
    
- - To launch it, go in a separate terminal and *start JSON Server to simulate a REST API from your JSON file containing recipe data*  with this command :
+ - To launch it, go in a separate terminal and *start JSON Server to simulate a REST API from the JSON file containing recipe data*  with this command :
 
 ```bash
 json-server src/assets/recettes.json
